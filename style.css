@@ -5,6 +5,22 @@
         margin-top: .25rlh;
     }
 }
+.card:not(:has(img)) h3 {
+    font-size: 1.6rem;
+}
+
+.card:not(:has(img)):not(:has(h3)) p {
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
+.card:has(img) {
+    padding: 0;
+}
+
+.card:has(img) .content {
+    padding: 1rem;
+}
 
 
 
